@@ -3,8 +3,7 @@
   "name": "Site for organization Good hands",
   "icons": [
     {
-      "src": "Logo.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
+      "src": "logo.ico",
       "type": "image/x-icon"
     }
   ],
