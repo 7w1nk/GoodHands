@@ -1,0 +1,15 @@
+<svg width="45" height="45" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 92.71 92.71">
+    <defs>
+        <style>
+            .cls-1 {
+            fill: none;
+            stroke: #FF914C;
+            stroke-miterlimit: 10;
+            stroke-width: 4px;
+            }
+        </style>
+    </defs>
+    <circle class="cls-1" cx="46.35" cy="46.35" r="44.35"/>
+    <polygon class="cls-1"
+             points="75.54 41.56 51.15 41.56 51.15 17.16 41.56 17.16 41.56 41.56 17.16 41.56 17.16 51.15 41.56 51.15 41.56 75.54 51.15 75.54 51.15 51.15 75.54 51.15 75.54 41.56"/>
+</svg>

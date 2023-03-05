@@ -1,9 +1,21 @@
 @font-face {
-  font-family: $mainFont;
-  src: url("../fonts/open-sans-bold.ttf");
+  font-family: $font-Open-Sans;
+  src: url("../fonts/OpenSans-VariableFont_wdth,wght.ttf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: $font-Open-Sans;
+  src: url("../fonts/OpenSans-VariableFont_wdth,wght.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: $font-Open-Sans;
+  src: url("../fonts/OpenSans-VariableFont_wdth,wght.ttf");
+  font-weight: 800;
 }
 
+
 @font-face {
-  font-family: $additionalFont;
+  font-family: $font-Pragmatica;
   src: url("../fonts/pragmatica.ttf");
 }
