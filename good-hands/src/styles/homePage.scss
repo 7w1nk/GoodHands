@@ -40,6 +40,12 @@
     &_location img {
       margin-right: 10px;
     }
+
+    &_link{
+      display: flex;
+      white-space:nowrap;
+      margin: 0 5px 0;
+    }
   }
 
   &-menu {
@@ -54,6 +60,17 @@
 
     &_element {
       margin-top: 39px;
+    }
+
+    &_ad{
+      display: flex;
+      flex: 1;
+      margin-top: 73px;
+      margin-left: 40px;
+      margin-right: 45px;
+      border-radius: 30px;
+      background-color: $color-add_bg;
+      box-shadow: 0 0 3px 4px $color-add_shadow;
     }
   }
 }
