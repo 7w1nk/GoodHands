@@ -2,7 +2,9 @@ $font-Open-Sans: Open-Sans;
 $font-Pragmatica: Pragmatica;
 
 $color-orange: #FF914C;
-$color-black: #000;
+$color-black: #000000;
+$color-grey: #EEEBE2;
+$color-white: #FFFFFF;
 
 $fullHeight: 100vh;
 $fullWidth: 100vw;
@@ -25,6 +27,8 @@ $font-text-color: $color-black;
 $font-main-size: $font-size-20;
 $font-nav-size: $font-size-24;
 $font_loc-size: $font-size-22;
+$color-add_shadow: $color-grey;
+$color-add_bg: $color-white;
 
 $container-center: $content-center;
 $container-margin: $calc-100vw-60;
