@@ -1,9 +1,9 @@
 import path from "path";
 
-module.exports ={
+module.exports = {
     entry: './src/index.tsx',
-    module:{
-        rules:[
+    module: {
+        rules: [
             {
                 test: /\.tsx?$/,
                 use: 'ts-loader',
@@ -42,12 +42,12 @@ module.exports ={
             }
         ],
     },
-    resolve:{
-        extensions:['.tsx','.ts','.js','.jsx'],
+    resolve: {
+        extensions: ['.tsx', '.ts', '.js', '.jsx'],
     },
     output: {
         filename: 'bundle.js',
-        path: path.resolve(__dirname,'dist'),
+        path: path.resolve(__dirname, 'dist'),
     },
 };
 
