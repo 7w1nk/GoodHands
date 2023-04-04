@@ -5,6 +5,7 @@ import Favourites from "../../../../img/Favourites.svg";
 import NewPost from "../../../../img/NewPost.svg";
 import Chat from "../../../../img/Chat.svg";
 import React from "react";
+import Advertisement from "../homePage_advertisement/homePage_advertisement";
 
 const LinkMenu = () => {
 	return (
@@ -28,9 +29,6 @@ const LinkMenu = () => {
 	);
 };
 
-const Advertisement = () => {
-	return <div className="home-menu_ad"></div>;
-};
 
 const HomePage_menu = () => {
 	return (
