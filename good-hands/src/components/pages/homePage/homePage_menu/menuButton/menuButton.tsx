@@ -1,13 +1,13 @@
-interface IImportImageProps{
-    src:any,
-    name:string
+interface IImportImageProps {
+    src: any;
+    name: string;
 }
-const MenuButton = (props:IImportImageProps) =>{
-    return(
+const MenuButton = (props: IImportImageProps) => {
+    return (
         <a href="homePage/homePage_menu/menuButton#" className="menu_button">
-            <img src={props.src} alt={"Open "+props.name}/>
+            <img src={props.src} alt={"Open " + props.name} />
         </a>
-    )
-}
+    );
+};
 
 export default MenuButton;
