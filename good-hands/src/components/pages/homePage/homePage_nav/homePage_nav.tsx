@@ -4,10 +4,14 @@ import Location from "../../../location/location";
 import React from "react";
 
 const HomePage_nav = () => {
-    return <nav className="home-navigation">
-        <Logo/>
-        <Navi/>
-        <Location/>
-    </nav>
+    return (
+        <nav className="home-navigation">
+            <div className={"container"}>
+                <Logo />
+                <Navi />
+                <Location />
+            </div>
+        </nav>
+    );
 };
 export default HomePage_nav;

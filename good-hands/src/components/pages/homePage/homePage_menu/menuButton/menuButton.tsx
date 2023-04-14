@@ -4,7 +4,10 @@ interface IImportImageProps {
 }
 const MenuButton = (props: IImportImageProps) => {
     return (
-        <a href="homePage/homePage_menu/menuButton#" className="menu_button">
+        <a
+            href="homePage/homePage_menu/menuButton#"
+            className="home-menu_button"
+        >
             <img src={props.src} alt={"Open " + props.name} />
         </a>
     );

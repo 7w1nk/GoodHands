@@ -8,35 +8,36 @@ import React from "react";
 import Advertisement from "../homePage_advertisement/homePage_advertisement";
 
 const LinkMenu = () => {
-	return (
-		<ul>
-			<li className="home-menu_element">
-				<MenuButton name={"Account"} src={Account} />
-			</li>
-			<li className="home-menu_element">
-				<MenuButton name={"Cart"} src={Cart} />
-			</li>
-			<li className="home-menu_element">
-				<MenuButton name={"Favourites"} src={Favourites} />
-			</li>
-			<li className="home-menu_element">
-				<MenuButton name={"NewPost"} src={NewPost} />
-			</li>
-			<li className="home-menu_element">
-				<MenuButton name={"Chat"} src={Chat} />
-			</li>
-		</ul>
-	);
+    return (
+        <ul>
+            <li className="home-menu_element">
+                <MenuButton name={"Account"} src={Account} />
+            </li>
+            <li className="home-menu_element">
+                <MenuButton name={"Cart"} src={Cart} />
+            </li>
+            <li className="home-menu_element">
+                <MenuButton name={"Favourites"} src={Favourites} />
+            </li>
+            <li className="home-menu_element">
+                <MenuButton name={"NewPost"} src={NewPost} />
+            </li>
+            <li className="home-menu_element">
+                <MenuButton name={"Chat"} src={Chat} />
+            </li>
+        </ul>
+    );
 };
 
-
 const HomePage_menu = () => {
-	return (
-		<div className="home-menu">
-			<LinkMenu />
-			<Advertisement />
-		</div>
-	);
+    return (
+        <div className="home-menu">
+            <div className={"container"}>
+                <LinkMenu />
+                <Advertisement />
+            </div>
+        </div>
+    );
 };
 
 export default HomePage_menu;

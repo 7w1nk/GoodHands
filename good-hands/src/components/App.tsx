@@ -5,15 +5,13 @@ import HomePage from "./pages/homePage/homePage";
 
 const App = () => {
     return (
-        <div className={"container"}>
-            <Routes>
-                <Route path={"/"} element={<HomePage />} />
-                {ListLinkProp.map((list: LinkProp) => (
-                    <Route path={list.id} element={<h1>{list.name}</h1>} />
-                ))}
-                ;
-            </Routes>
-        </div>
+        <Routes>
+            <Route path={"/"} element={<HomePage />} />
+            {ListLinkProp.map((list: LinkProp) => (
+                <Route path={list.id} element={<h1>{list.name}</h1>} />
+            ))}
+            ;
+        </Routes>
     );
 };
 

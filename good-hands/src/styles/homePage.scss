@@ -1,77 +1,117 @@
 .home {
-  &-navigation {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    &-navigation {
+        & > .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+        }
 
-    & * {
-      color: $color-orange;
-      font-weight: 700;
-      font-size: $font-nav-size;
+        & * {
+            color: $color-orange;
+            font-weight: 700;
+            font-size: $font-nav-size;
+        }
+
+        &_logo,
+        &_location {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        &_logo img {
+            height: 58px;
+            width: 55px;
+        }
+
+        &_location img {
+            height: 38px;
+            width: 23.5px;
+        }
+
+        &_location * {
+            font-size: $font_loc-size;
+            user-select: none;
+        }
+
+        &_logo * {
+            font-weight: 800;
+        }
+
+        &_logo img,
+        &_location img {
+            margin-right: 10px;
+        }
+
+        &_link {
+            display: flex;
+            white-space: nowrap;
+            margin: 0 5px 0;
+        }
     }
 
-    &_logo,
-    &_location {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
+    &-menu {
+        & > .container {
+            display: flex;
+        }
+
+        & > ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        &_element {
+            margin-top: 39px;
+        }
+
+        &_ad {
+            display: flex;
+            flex: 1;
+            margin-top: 73px;
+            margin-left: 40px;
+            margin-right: 45px;
+            border-radius: 30px;
+            background-color: $color-add_bg;
+            box-shadow: 0 0 3px 4px $color-add_shadow;
+        }
     }
 
-    &_logo img {
-      height: 58px;
-      width: 55px;
+    &-footer {
+        position: relative;
+        width: 100%;
+        height: 300px;
+        background-color: $color-bg-footer;
+        & > .container {
+        }
+        &::after {
+            content: "";
+            display: block;
+            position: absolute;
+            left: 0;
+            top: -100px;
+            min-width: 100%;
+            z-index: -9999;
+            height: 200px;
+            mask-image: url(../img/WaveBG.svg);
+            -webkit-mask-image: url(../img/WaveBG.svg);
+            background-color: $color-bg-footer;
+        }
+        &::before {
+            content: "";
+            display: block;
+            position: absolute;
+            left: 0;
+            top: -200px;
+            min-width: 100%;
+            z-index: -9999;
+            height: 200px;
+            mask-image: url(../img/WaveBG.svg);
+            -webkit-mask-image: url(../img/WaveBG.svg);
+            background-color: $color-bg-footer;
+            opacity: 0.16;
+        }
     }
-
-    &_location img {
-      height: 38px;
-      width: 23.5px;
-    }
-
-    &_location * {
-      font-size: $font_loc-size;
-      user-select: none;
-    }
-
-    &_logo * {
-      font-weight: 800;
-    }
-
-    &_logo img,
-    &_location img {
-      margin-right: 10px;
-    }
-
-    &_link{
-      display: flex;
-      white-space:nowrap;
-      margin: 0 5px 0;
-    }
-  }
-
-  &-menu {
-    display: flex;
-
-    & > ul {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-    }
-
-    &_element {
-      margin-top: 39px;
-    }
-
-    &_ad{
-      display: flex;
-      flex: 1;
-      margin-top: 73px;
-      margin-left: 40px;
-      margin-right: 45px;
-      border-radius: 30px;
-      background-color: $color-add_bg;
-      box-shadow: 0 0 3px 4px $color-add_shadow;
-    }
-    
-  }
 }

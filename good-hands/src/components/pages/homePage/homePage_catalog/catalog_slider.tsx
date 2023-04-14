@@ -10,28 +10,28 @@ const CatalogSlider = () => {
     };
     return (
         <Slider {...settings}>
-            <div className="homePage_catalog-slider-items">
-                <span className="homePage_catalog-slider-tag">Кошки</span>
+            <div className="home-catalog_slider_items">
+                <span className="home-catalog_slider_tag">Кошки</span>
                 <img src="#" alt="" />
             </div>
-            <div className="homePage_catalog-slider-items">
-                <span className="homePage_catalog-slider-tag">Собаки</span>
+            <div className="home-catalog_slider_items">
+                <span className="home-catalog_slider_tag">Собаки</span>
                 <img src="#" alt="" />
             </div>
-            <div className="homePage_catalog-slider-items">
-                <span className="homePage_catalog-slider-tag">Грызуны</span>
+            <div className="home-catalog_slider_items">
+                <span className="home-catalog_slider_tag">Грызуны</span>
                 <img src="#" alt="" />
             </div>
-            <div className="homePage_catalog-slider-items">
-                <span className="homePage_catalog-slider-tag">Птицы</span>
+            <div className="home-catalog_slider_items">
+                <span className="home-catalog_slider_tag">Птицы</span>
                 <img src="#" alt="" />
             </div>
-            <div className="homePage_catalog-slider-items">
-                <span className="homePage_catalog-slider-tag">Рептилии</span>
+            <div className="home-catalog_slider_items">
+                <span className="home-catalog_slider_tag">Рептилии</span>
                 <img src="#" alt="" />
             </div>
-            <div className="homePage_catalog-slider-items">
-                <span className="homePage_catalog-slider-tag">Аквариумные</span>
+            <div className="home-catalog_slider_items">
+                <span className="home-catalog_slider_tag">Аквариумные</span>
                 <img src="#" alt="" />
             </div>
         </Slider>

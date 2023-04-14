@@ -1,4 +1,4 @@
-import { CSSProperties } from "react";
+import { CSSProperties, useRef, useState } from "react";
 import Paw from "../../img/PawBG.svg";
 import PawTransperant from "../../img/PawBGtransperant.svg";
 
@@ -119,8 +119,19 @@ const ImageRightBotTransperant = () => {
 };
 
 const BackgroundPow = () => {
+    const targetSize = useRef();
+    const [dimensions, setDimensions] = useState({});
+
+    let currentTimer = null;
+    const RESET_TIMER = 100;
+
+    const testDimensions = () => {
+        if (targetSize.current) {
+            setDimensions({ width: targetSize.current });
+        }
+    };
     return (
-        <div className="background">
+        <div ref={targetSize} className="background">
             <ImageLeftTopTransperant />
             <ImageLeftTopTransperant />
             <ImageLeftTopTransperant />

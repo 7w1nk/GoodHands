@@ -1,10 +1,10 @@
 $font-Open-Sans: Open-Sans;
 $font-Pragmatica: Pragmatica;
 
-$color-orange: #FF914C;
+$color-orange: #ff914c;
 $color-black: #000000;
-$color-grey: #EEEBE2;
-$color-white: #FFFFFF;
+$color-grey: #eeebe2;
+$color-white: #ffffff;
 
 $fullHeight: 100vh;
 $fullWidth: 100vw;
@@ -37,3 +37,5 @@ $container-general-margin: $container-margin-top auto 0;
 
 $calc-100vh-margin-top: calc($fullHeight - $container-margin-top);
 $content-height-with-margin-top: $calc-100vh-margin-top;
+
+$color-bg-footer: $color-orange;

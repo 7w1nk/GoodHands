@@ -1,13 +1,13 @@
-#root{
-  min-width: $fullWidth;
-  height: $content-height-with-margin-top;
-  font-size: $font-main-size;
+#root {
+    min-width: $fullWidth;
+    height: $content-height-with-margin-top;
+    font-size: $font-main-size;
 }
 
-.container{
-  min-height: 100%;
-  max-width: $container-margin;
-  height: 100%;
-  width: 100%;
-  margin: $container-general-margin;
+.container {
+    min-height: 100%;
+    max-width: $container-margin;
+    height: 100%;
+    width: 100%;
+    margin: $container-general-margin;
 }
