@@ -131,7 +131,7 @@ const BackgroundPow = () => {
         }
     };
     return (
-        <div ref={targetSize} className="background">
+        <div ref={targetSize.current} className="background">
             <ImageLeftTopTransperant />
             <ImageLeftTopTransperant />
             <ImageLeftTopTransperant />
