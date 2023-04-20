@@ -17,15 +17,15 @@ import ListCities from "./ListCity.json";
 // }, [currentCity]);
 
 const Location = () => {
-  return (
-    <span className="home-navigation_location">
-      <img alt="Point of location" src={locator} />
-      <span>
-        {ListCities.map((data) => {
-          return data.city.match("Красноярск");
-        })}
-      </span>
-    </span>
-  );
+    return (
+        <span className="home-navigation_location">
+            <img alt="Point of location" src={locator} />
+            <span>
+                {ListCities.map((data) => {
+                    return data.city.match("Красноярск");
+                })}
+            </span>
+        </span>
+    );
 };
 export default Location;
