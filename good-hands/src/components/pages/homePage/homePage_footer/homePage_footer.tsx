@@ -4,10 +4,10 @@ const HomePage_footer = () => {
             <div className="container">
                 <div className="home-footer_columns">
                     <div className="home-footer_column">
-                        <h2 className="home-footer_column_title">
+                        <h2 className="home-footer_column_title align-left">
                             Специалистам и клиентам
                         </h2>
-                        <ul className="home-footer_column_list">
+                        <ul className="home-footer_column_list align-left">
                             <li>
                                 <a href="#">Отдать в добрые руки</a>
                             </li>
@@ -45,23 +45,30 @@ const HomePage_footer = () => {
                         </ul>
                     </div>
                     <div className="home-footer_column">
-                        <h2 className="home-footer_column_contacts">
+                        <h2 className="home-footer_column_title align-right">
                             Контакты
                         </h2>
-                        <ul className="home-footer_column_contact">
-                            <li>
-                                <p>goodhands124@gmail.com</p>
-                            </li>
-                            <li>
-                                <p>+7 (902) 941-11-63</p>
-                            </li>
-                            <li></li>
-                            <li>
-                                <a href="#">Чат</a>
-                            </li>
-                            <li>
-                                <a href="#">Видели видео</a>
-                            </li>
+                        <ul className="home-footer_column_list align-right">
+                            <div className="home-footer_column_list_top">
+                                <li>
+                                    <a href="mailto:goodhands124@gmail.com">
+                                        goodhands124@gmail.com
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="tel:+79029411163">
+                                        +7 (902) 941-11-63
+                                    </a>
+                                </li>
+                            </div>
+                            <div className="home-footer_column_list_bottom">
+                                <li>
+                                    <a href="#">Чат</a>
+                                </li>
+                                <li>
+                                    <a href="#">Видели видео</a>
+                                </li>
+                            </div>
                         </ul>
                     </div>
                 </div>
