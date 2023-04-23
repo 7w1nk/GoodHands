@@ -78,6 +78,80 @@
             box-shadow: 0 0 3px 4px $color-add_shadow;
         }
     }
+    &-catalog {
+        &_title {
+            position: relative;
+            margin-top: 104px;
+            left: 125px;
+        }
+        &_slider {
+            margin-top: 40px;
+            &_items {
+                padding: 10px 20px;
+                // margin: 5px 15px 5px 15px;
+                height: 238px;
+                width: 238px;
+                flex-direction: column;
+                justify-content: space-around;
+                border-radius: 20px;
+                background-color: #fff;
+                box-shadow: 3px 3px 3px 3px;
+                box-shadow: #f5f5f5;
+                overflow: hidden;
+                position: relative;
+            }
+        }
+    }
+    &-top {
+        &_title {
+            position: relative;
+            margin-top: 40px;
+            left: 125px;
+        }
+        &_slider {
+            margin-top: 40px;
+            &_items {
+                padding: 0 14px;
+                margin: 5px 15px 5px;
+                height: 238px;
+                width: 238px;
+                flex-direction: column;
+                justify-content: flex-end;
+                border-radius: 20px;
+                background-color: #fff;
+                box-shadow: 3px 3px 3px 3px;
+                box-shadow: #f5f5f5;
+                border-radius: 20px;
+                overflow: hidden;
+                position: relative;
+            }
+        }
+    }
+    &-question {
+        &_title {
+            position: relative;
+            margin-top: 40px;
+            left: 125px;
+        }
+        &_slider {
+            margin-top: 40px;
+            &_items {
+                padding: 0 14px;
+                margin: 5px 15px 5px;
+                height: 238px;
+                width: 238px;
+                flex-direction: column;
+                justify-content: flex-end;
+                border-radius: 20px;
+                background-color: #fff;
+                box-shadow: 3px 3px 3px 3px;
+                box-shadow: #f5f5f5;
+                border-radius: 20px;
+                overflow: hidden;
+                position: relative;
+            }
+        }
+    }
 
     &-footer {
         position: relative;
