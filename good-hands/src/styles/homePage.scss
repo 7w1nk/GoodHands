@@ -83,21 +83,36 @@
             position: relative;
             margin-top: 104px;
             left: 125px;
+            color: #ff914c;
+            font-size: 48px;
         }
         &_slider {
+            // width: 1090px;
             margin-top: 40px;
+            margin-left: 100px;
+            box-sizing: border-box;
+            height: auto;
+            // overflow: hidden;
+            .slick-slide {
+                margin: 0 26px;
+                width: 345px;
+            }
+            .slick-list {
+                overflow: hidden;
+                margin: 0;
+                padding: 0;
+            }
             &_items {
                 padding: 10px 20px;
                 // margin: 5px 15px 5px 15px;
                 height: 238px;
-                width: 238px;
+                // width: 238px;
                 flex-direction: column;
                 justify-content: space-around;
                 border-radius: 20px;
                 background-color: #fff;
-                box-shadow: 3px 3px 3px 3px;
-                box-shadow: #f5f5f5;
-                overflow: hidden;
+                box-shadow: 0px 0px 10px 10px #f5f5f5;
+                overflow: visible;
                 position: relative;
             }
         }
@@ -107,9 +122,21 @@
             position: relative;
             margin-top: 40px;
             left: 125px;
+            color: #ff914c;
+            font-size: 48px;
         }
         &_slider {
+            // width: 1090px;
             margin-top: 40px;
+            .slick-slide {
+                margin: 0 26px;
+                width: 345px;
+            }
+            .slick-list {
+                overflow: hidden;
+                margin: 0;
+                padding: 0;
+            }
             &_items {
                 padding: 0 14px;
                 margin: 5px 15px 5px;
@@ -119,8 +146,7 @@
                 justify-content: flex-end;
                 border-radius: 20px;
                 background-color: #fff;
-                box-shadow: 3px 3px 3px 3px;
-                box-shadow: #f5f5f5;
+                box-shadow: 0px 0px 10px 10px #f5f5f5;
                 border-radius: 20px;
                 overflow: hidden;
                 position: relative;
@@ -132,22 +158,32 @@
             position: relative;
             margin-top: 40px;
             left: 125px;
+            color: #ff914c;
+            font-size: 48px;
         }
         &_slider {
             margin-top: 40px;
+            .slick-slide {
+                margin: 0 26px;
+                width: 345px;
+                height: 238px;
+            }
+            .slick-list {
+                overflow: hidden;
+                margin: 0;
+                padding: 0;
+            }
             &_items {
-                padding: 0 14px;
+                padding: 10px 20px;
                 margin: 5px 15px 5px;
                 height: 238px;
-                width: 238px;
                 flex-direction: column;
                 justify-content: flex-end;
                 border-radius: 20px;
                 background-color: #fff;
-                box-shadow: 3px 3px 3px 3px;
-                box-shadow: #f5f5f5;
+                box-shadow: 0px 0px 10px 10px #f5f5f5;
                 border-radius: 20px;
-                overflow: hidden;
+                overflow: scroll;
                 position: relative;
             }
         }

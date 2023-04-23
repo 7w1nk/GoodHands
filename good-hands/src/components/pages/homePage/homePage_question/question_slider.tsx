@@ -6,6 +6,8 @@ const QuestionSlider = () => {
         speed: 500,
         slidesToShow: 3,
         slidesToScroll: 1,
+        dots: true,
+        variableWidth: true,
     };
     return (
         <Slider {...settings}>
