@@ -87,7 +87,7 @@
             font-size: 48px;
         }
         &_slider {
-            // width: 1090px;
+            width: auto;
             margin-top: 40px;
             margin-left: 100px;
             box-sizing: border-box;
@@ -98,7 +98,7 @@
                 width: 345px;
             }
             .slick-list {
-                overflow: hidden;
+                overflow: visible;
                 margin: 0;
                 padding: 0;
             }
@@ -126,14 +126,13 @@
             font-size: 48px;
         }
         &_slider {
-            // width: 1090px;
             margin-top: 40px;
             .slick-slide {
                 margin: 0 26px;
                 width: 345px;
             }
             .slick-list {
-                overflow: hidden;
+                overflow: visible;
                 margin: 0;
                 padding: 0;
             }
@@ -143,7 +142,7 @@
                 height: 238px;
                 width: 238px;
                 flex-direction: column;
-                justify-content: flex-end;
+                // justify-content: flex-end;
                 border-radius: 20px;
                 background-color: #fff;
                 box-shadow: 0px 0px 10px 10px #f5f5f5;
@@ -169,7 +168,7 @@
                 height: 238px;
             }
             .slick-list {
-                overflow: hidden;
+                overflow: visible;
                 margin: 0;
                 padding: 0;
             }
